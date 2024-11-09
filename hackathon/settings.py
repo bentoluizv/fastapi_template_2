@@ -10,3 +10,7 @@ class Settings(BaseSettings):
     SECRET_KEY: str
     ALGORITHM: str
     ACCESS_TOKEN_EXPIRE_MINUTES: int
+    LANGCHAIN_TRACING_V2: bool
+    LANGCHAIN_ENDPOINT: str
+    LANGCHAIN_API_KEY: str
+    LANGCHAIN_PROJECT: str
