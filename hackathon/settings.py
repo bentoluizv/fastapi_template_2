@@ -7,8 +7,6 @@ class Settings(BaseSettings):
     )
 
     DATABASE_URL: str
-    SECRET_KEY: str
-    ALGORITHM: str
     ACCESS_TOKEN_EXPIRE_MINUTES: int
     LANGCHAIN_TRACING_V2: bool
     LANGCHAIN_ENDPOINT: str
